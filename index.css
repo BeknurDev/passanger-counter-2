@@ -93,6 +93,7 @@ p {
 @media screen and (min-width: 800px)
 {   
     #container {
+        margin-top: 40%;
         padding-top: 25px;
         width: 800px;
     }
