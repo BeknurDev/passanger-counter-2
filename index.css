@@ -115,6 +115,7 @@ p {
 }
 @media screen and (min-width: 1024px){
     #container {
+        margin-top: 25px;
         padding-top: 25px;
         width: 500px;
     }
