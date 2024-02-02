@@ -1,5 +1,5 @@
 body {
-    background-image: url("yarn.jpeg");
+    background-image: url("background.svg");
     background-size: cover;
     background-repeat: no-repeat; 
     font-family: 'Helvetica Neue', sans-serif;
@@ -7,7 +7,7 @@ body {
 }
 #container { 
     background-color: rgba(0,0,0,0.5);
-    border-radius: 18px;
+    border-radius: 40px;
     margin: auto;
 }
 
@@ -39,7 +39,7 @@ button {
 
 
 #increment-btn {
-    background: white;
+    background: none;
     border: solid 2px;
     color: gray;
     cursor: pointer;
@@ -55,30 +55,30 @@ button {
 }
 
 #save-btn {
-    background: white;
+    background: none;
     border: solid 2px;
-    color: skyblue;
+    color: rgb(186, 119, 90);
     cursor: pointer;
     transition: border 0.15s, background 0.15s, color 0.15s;
 }
 #save-btn:hover {
-    background: skyblue;
-    border: solid skyblue 2px;
+    background: rgb(186, 119, 90);
+    border: solid rgb(186, 119, 90) 2px;
     color: white;
 }
 #increment-btn:active {
     opacity: 0.8;
 }
 #reset-btn {
-    background: white;
+    background: none;
     border: solid 2px;
-    color: red;
+    color: rgb(115, 66, 160);
     cursor: pointer;
     transition: border 0.15s, background 0.15s, color 0.15s;
 }
 #reset-btn:hover {
-    background: red;
-    border: solid red 2px;
+    background: rgb(115, 66, 160);
+    border: solid rgb(115, 66, 160) 2px;
     color: white;
 }
 #reset-btn:active {
